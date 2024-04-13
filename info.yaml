@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:     0       # 395071645449496577
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        ""      # Solar charger
+  author:       ""      # Hector
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  ""      # The Solar charger project has two objectives, charging the dispositive and charging the battery of the charger.
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -14,24 +14,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
+  ui[0]: "The DISPOSITIVE's battery is empty"
+  ui[1]: "The DISPOSITIVE it's connected to the charger"
+  ui[2]: "The CHARGER's battery is empty"
+  ui[3]: "The CHARGER's solar panels are in contact with sunlight"
+  ui[4]: "The CHARGER's battery is receiving current from the house"
   ui[5]: ""
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
+  uo[0]: "OUTPUT0 = The DISPOSITIVE's battery gets charge "
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
-  uo[7]: ""
+  uo[7]: "OUTPUT7 = The CHARGER's battery gets charge"
 
   # Bidirectional pins
   uio[0]: ""
