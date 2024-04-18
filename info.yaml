@@ -1,8 +1,8 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       395071645449496577
-  title:        ""      Solar charger
-  author:       ""      Hector
+  wokwi_id:     0       # 395071645449496577
+  title:        ""      # Solar charger
+  author:       ""      # Hector
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  ""      The Solar charger project has two objectives, charging the dispositive and charging the battery of the charger.
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
